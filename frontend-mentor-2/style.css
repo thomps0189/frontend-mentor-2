@@ -21,13 +21,23 @@ body {
 
 section {
     background-color: var(--dark-desaturated-blue);
-    width: 50em;
+    width: 55em;
     height: 25em;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin: 100px;
     border-radius: 5px;
+    /* position:  */
+    
+}
+
+.flex-item-left {
+    flex: 50%;
+}
+
+.flex-item-right {
+    flex: 50%;
 }
 
 h1 {
@@ -37,4 +47,9 @@ h1 {
 img {
     height: 50%;
     width: 50%;
+    display: block;
+}
+
+.header-paragraph {
+    margin: 40px;
 }
