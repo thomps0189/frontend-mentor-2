@@ -7,7 +7,34 @@
     --slightly-transparent-white-state-heading: hsla(0, 0%, 100%, 0.6);
 }
 
-body {
+* {
     font-family: 'Inter', sans-serif;
-    font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+    /* font-family: 'Lexend Deca', sans-serif; */
+    background-color: var(--very-dark-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    background-color: var(--dark-desaturated-blue);
+    width: 50em;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 100px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: var(--slightly-transparent-white-main-p);
+}
+
+img {
+    height: 50%;
+    width: 50%;
 }
