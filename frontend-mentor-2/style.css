@@ -31,22 +31,16 @@ section {
     
 }
 
-/* .flex-item-left {
-    flex: 50%;
-}
-
-.flex-item-right {
-    flex: 50%;
-} */
 
 h1 {
-    color: var(--slightly-transparent-white-main-p);
+    color: var(--white);
 }
 
 img {
     height: 50%;
     width: 50%;
-    /* display: ; */
+    background: var(--solf-violet);
+    background-size: cover;
 }
 
 .header-paragraph {
@@ -57,3 +51,23 @@ span.insights {
     color: var(--solf-violet);
 }
 
+.header-paragraph {
+    padding: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+p {
+    color: var(--slightly-transparent-white-main-p);
+    font-size: 15px;
+}
+
+ul {
+    display: flex;
+
+}
+
+li {
+    list-style: none;
+    color: var(--slightly-transparent-white-main-p);
+}
