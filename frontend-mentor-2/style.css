@@ -53,6 +53,7 @@ img {
     margin: 40px;
 }
 
-.information {
-    border: 1px solid red;
+span.insights {
+    color: var(--solf-violet);
 }
+
