@@ -12,23 +12,14 @@
 }
 
 body {
-    /* font-family: 'Lexend Deca', sans-serif; */
     background-color: var(--very-dark-blue);
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
 section {
     background-color: var(--dark-desaturated-blue);
-    /* width: 55em; */
-    /* height: 25em; */
     display: flex;
-    /* flex-direction: row; */
     margin: 100px;
     border-radius: 5px;
-    /* position:  */
-    
 }
 
 
@@ -60,10 +51,14 @@ span.insights {
 p {
     color: var(--slightly-transparent-white-main-p);
     font-size: 15px;
+    margin-bottom: 30px;
 }
 
 ul {
     display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin-top: 10px;
 
 }
 
